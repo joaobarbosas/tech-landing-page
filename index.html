@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Landing Page</title>
+
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/elements.css" />
+    <link rel="stylesheet" href="assets/css/classes.css" />
+    <link rel="stylesheet" href="assets/css/menu.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <input
+      id="close-menu"
+      class="close-menu"
+      type="checkbox"
+      aria-label="Fechar menu"
+      role="button"
+    />
+    <label
+      class="close-menu-label"
+      for="close-menu"
+      title="Fechar menu"
+    ></label>
+
+    <aside class="menu white-bg">
+      <div class="main-content menu-content">
+        <h1 onclick="document.getElementById('close-menu').checked = false;">
+          <a href="#home">TechLanding</a>
+        </h1>
+
+        <nav>
+          <ul onclick="document.getElementById('close-menu').checked = false;">
+            <li><a href="#intro">Início</a></li>
+            <li><a href="#grid-one">Serviços</a></li>
+            <li><a href="#gallery">Portfólio</a></li>
+            <li><a href="#grid-two">Como funciona</a></li>
+            <li><a href="#pricing">Planos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2>Soluções digitais simples e eficientes</h2>
+          <p>
+            A TechLanding ajuda empresas a tirarem projetos do papel com páginas
+            rápidas, responsivas e focadas em resultado.
+          </p>
+          <button class="btn-cta">Falar com o time</button>
+        </div>
+
+        <div class="intro-img">
+          <img
+            src="assets/img/javascript.svg"
+            alt="Ilustração com pessoas e logos de HTML, CSS e JavaScript."
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+      <div class="main-content top3-content">
+        <h2>Por que escolher a TechLanding</h2>
+        <p>
+          Layouts modernos, código organizado e páginas preparadas para crescer
+          junto com o seu negócio.
+        </p>
+      </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Serviços</h2>
+        <p class="grid-description">Soluções digitais focadas em resultado.</p>
+
+        <div class="grid">
+          <article>
+            <h3>Landing pages</h3>
+            <p>
+              Criação de páginas otimizadas para campanhas, lançamentos e
+              captação de leads.
+            </p>
+          </article>
+
+          <article>
+            <h3>Sites institucionais</h3>
+            <p>
+              Estrutura clara para apresentar serviços, equipe, depoimentos e
+              formas de contato.
+            </p>
+          </article>
+
+          <article>
+            <h3>Protótipos de interface</h3>
+            <p>
+              Prototipação rápida de telas para validar ideias antes do
+              desenvolvimento completo.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Portfólio</h2>
+        <p class="grid-description">
+          Alguns exemplos de layouts e estilos que a TechLanding pode entregar.
+        </p>
+
+        <div class="grid">
+          <div class="gallery-img">
+            <img
+              src="https://picsum.photos/360/360?random=1"
+              alt="Exemplo de layout 1"
+            />
+          </div>
+
+          <div class="gallery-img">
+            <img
+              src="https://picsum.photos/360/360?random=2"
+              alt="Exemplo de layout 2"
+            />
+          </div>
+
+          <div class="gallery-img">
+            <img
+              src="https://picsum.photos/360/360?random=3"
+              alt="Exemplo de layout 3"
+            />
+          </div>
+
+          <div class="gallery-img">
+            <img
+              src="https://picsum.photos/360/360?random=4"
+              alt="Exemplo de layout 4"
+            />
+          </div>
+
+          <div class="gallery-img">
+            <img
+              src="https://picsum.photos/360/360?random=5"
+              alt="Exemplo de layout 5"
+            />
+          </div>
+
+          <div class="gallery-img">
+            <img
+              src="https://picsum.photos/360/360?random=6"
+              alt="Exemplo de layout 6"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Como funciona</h2>
+        <p class="grid-description">
+          Um processo simples para tirar suas ideias do papel.
+        </p>
+
+        <div class="grid">
+          <article>
+            <h3>Briefing</h3>
+            <p>
+              Entendemos o contexto, público e objetivo principal da página.
+            </p>
+          </article>
+
+          <article>
+            <h3>Layout e conteúdo</h3>
+            <p>
+              Definimos a estrutura, textos principais, seções e chamadas para
+              ação.
+            </p>
+          </article>
+
+          <article>
+            <h3>Desenvolvimento</h3>
+            <p>
+              Criamos a página em HTML e CSS responsivo, pronta para ser
+              publicada.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+      <div class="main-content top3-content">
+        <h2>Planos</h2>
+
+        <div class="pricing-grid">
+          <div class="price-card">
+            <h3>Inicial</h3>
+            <p>Ideal para uma página única simples.</p>
+            <ul>
+              <li>1 seção principal</li>
+              <li>Formulário de contato</li>
+              <li>Layout responsivo básico</li>
+            </ul>
+          </div>
+
+          <div class="price-card destaque">
+            <h3>Profissional</h3>
+            <p>Para pequenas empresas e prestadores de serviço.</p>
+            <ul>
+              <li>Até 5 seções</li>
+              <li>Galeria de imagens</li>
+              <li>Melhor organização visual</li>
+            </ul>
+          </div>
+
+          <div class="price-card">
+            <h3>Personalizado</h3>
+            <p>Projetos sob medida para necessidades específicas.</p>
+            <ul>
+              <li>Layout exclusivo</li>
+              <li>Estrutura flexível</li>
+              <li>Preparado para futuras integrações</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="responsive-table">
+          <table>
+            <caption>
+              Tabela comparativa de recursos
+            </caption>
+
+            <thead>
+              <tr>
+                <th>Recurso 1</th>
+                <th>Recurso 2</th>
+                <th>Recurso 3</th>
+                <th>Recurso 4</th>
+                <th>Recurso 5</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Incluso</td>
+                <td>Incluso</td>
+                <td>Opcional</td>
+                <td>Opcional</td>
+                <td>—</td>
+              </tr>
+              <tr>
+                <td>Incluso</td>
+                <td>Incluso</td>
+                <td>Incluso</td>
+                <td>Opcional</td>
+                <td>—</td>
+              </tr>
+              <tr>
+                <td>Incluso</td>
+                <td>Incluso</td>
+                <td>Incluso</td>
+                <td>Incluso</td>
+                <td>Personalizado</td>
+              </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <td colspan="5">Tabela meramente ilustrativa.</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2>Entre em contato</h2>
+          <p>Envie uma mensagem e retornaremos em breve.</p>
+        </div>
+
+        <div class="intro-img">
+          <img
+            src="assets/img/javascript.svg"
+            alt="Ilustração de pessoas interagindo com elementos de interface."
+          />
+        </div>
+
+        <div class="contact-form">
+          <form action="#" method="post">
+            <fieldset class="form-grid">
+              <legend>Formulário de contato</legend>
+
+              <div class="form-group">
+                <label for="first-name">Nome</label>
+                <input
+                  type="text"
+                  name="first-name"
+                  id="first-name"
+                  placeholder="Seu nome"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="last-name">Sobrenome</label>
+                <input
+                  type="text"
+                  name="last-name"
+                  id="last-name"
+                  placeholder="Sobrenome"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Seu e-mail"
+                />
+              </div>
+
+              <div class="form-group full-width">
+                <label for="message">Mensagem</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Sua mensagem"
+                ></textarea>
+              </div>
+
+              <div class="form-group full-width">
+                <button type="submit">Enviar mensagem</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <p>
+        <a rel="nofollow" target="_blank" href="#">
+          Feito com ❤ por João Pedro Sanches Barbosa
+        </a>
+      </p>
+    </footer>
+
+    <a class="back-to-top" href="#">TOP</a>
+  </body>
+</html>
